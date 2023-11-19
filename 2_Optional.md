@@ -12,7 +12,8 @@
 
 
 <details>
-<summary><h3>📓 Answer</h3></summary>
+
+<summary><b>📓 Answer</b></summary>
 
 옵셔널이란 값이 없을 수도 있음을 표현하는 임시의 타입입니다.
 
