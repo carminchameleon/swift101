@@ -8,7 +8,7 @@
 
 디자인 패턴 -> 이 과정을 어떤 식으로 처리할 것인가에 대한 고민.
 
-###전통적인 MVC 패턴
+### 전통적인 MVC 패턴
 
 
 ![Traditional MVC](https://developer.apple.com/library/archive/documentation/General/Conceptual/CocoaEncyclopedia/Art/traditional_mvc.gif
