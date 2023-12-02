@@ -8,19 +8,17 @@
 
 디자인 패턴 -> 이 과정을 어떤 식으로 처리할 것인가에 대한 고민.
 
-전통적인 MVC 패턴
+###전통적인 MVC 패턴
 
 
 ![Traditional MVC](https://developer.apple.com/library/archive/documentation/General/Conceptual/CocoaEncyclopedia/Art/traditional_mvc.gif
 )
 
-
-https://developer.apple.com/library/archive/documentation/General/Conceptual/CocoaEncyclopedia/Art/traditional_mvc.gif
-
 사용자가 View를 동작해 event를 발생시킨다.<br>
 Controller는 event를 받아 처리한다.<br>
 이때, 이 처리한다는 것은 Model의 상태를 변경을 요청하는 것일 수도 있고, View의 외형이나 동작의 변경을 요청하는 것일 수도 있다. (Controller는 View - Model 둘다 영향 가능)<br>
 Model는 상태가 바뀌게 되면 Observer로 등록된 모든 객체에게 알리는데, observer에 view가 있다면, view의 외형을 바꾸는 구현일 수도 있다.<br><br>
+
 
 View: 유저의 입력과 이벤트가 생기는 곳<br>
 Controller: 이벤트와 액션에 대해서 전달 받아, 뷰 혹은 모델이 바뀌게 한다.<br>
@@ -30,7 +28,7 @@ Model: 데이터에 대한 처리 -> View에 전달<br>
 뷰가 변할 때, 컨트롤러를 거치지 않아도 된다. (뷰와 모델이 서로 의존하는 관계이다.)
 
 <br>
-스위프트에서 사용한 CocoaMVC
+### 스위프트에서 사용한 CocoaMVC
 
 <br>
 view와 Model에 컨트롤러가 있다.
